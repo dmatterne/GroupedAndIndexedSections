@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource,  UITableViewDelegate {
 
     var names: NSDictionary!
     var keys: [String]!
