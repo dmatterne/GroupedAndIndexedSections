@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let path: URL? = Bundle.main.url(forResource: "sortedNames", withExtension: "plist")
+        let path: URL? = Bundle.main.url(forResource: "sortednames", withExtension: "plist")
         
         names = NSDictionary(contentsOf: path!)
         
