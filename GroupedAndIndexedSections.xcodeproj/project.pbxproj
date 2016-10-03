@@ -12,7 +12,7 @@
 		823D68461DA278EA009E9FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823D68441DA278EA009E9FE3 /* Main.storyboard */; };
 		823D68481DA278EB009E9FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823D68471DA278EB009E9FE3 /* Assets.xcassets */; };
 		823D684B1DA278EB009E9FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823D68491DA278EB009E9FE3 /* LaunchScreen.storyboard */; };
-		823D68531DA279FC009E9FE3 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 823D68521DA279FC009E9FE3 /* computers.plist */; };
+		824CEC211DA2848F00D1EA31 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 824CEC201DA2848F00D1EA31 /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		823D68471DA278EB009E9FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823D684A1DA278EB009E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823D684C1DA278EB009E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		823D68521DA279FC009E9FE3 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		824CEC201DA2848F00D1EA31 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		823D683F1DA278EA009E9FE3 /* GroupedAndIndexedSections */ = {
 			isa = PBXGroup;
 			children = (
-				823D68521DA279FC009E9FE3 /* computers.plist */,
+				824CEC201DA2848F00D1EA31 /* sortednames.plist */,
 				823D68401DA278EA009E9FE3 /* AppDelegate.swift */,
 				823D68421DA278EA009E9FE3 /* ViewController.swift */,
 				823D68441DA278EA009E9FE3 /* Main.storyboard */,
@@ -128,8 +128,8 @@
 			files = (
 				823D684B1DA278EB009E9FE3 /* LaunchScreen.storyboard in Resources */,
 				823D68481DA278EB009E9FE3 /* Assets.xcassets in Resources */,
+				824CEC211DA2848F00D1EA31 /* sortednames.plist in Resources */,
 				823D68461DA278EA009E9FE3 /* Main.storyboard in Resources */,
-				823D68531DA279FC009E9FE3 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +303,7 @@
 				823D68511DA278EB009E9FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
